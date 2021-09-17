@@ -1,0 +1,21 @@
+body{
+    background-color:#E9ECEF;
+}
+.pill{
+    color:green;
+    background-color:rgb(191, 247, 191);
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-size:small;
+    position: relative;
+    top: -2px;
+    font-weight:bold;
+}
+.interest{
+    font-size: larger;
+}
+.share{
+    margin-left:10px;
+}
