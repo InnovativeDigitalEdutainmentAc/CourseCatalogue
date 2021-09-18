@@ -15,7 +15,8 @@ router.post('/submitUserDetails', urlencodedParser ,(req,res) => {
     const mobile = req.body.mobile;
     (async () => {
       var status = await userController.createUser(name,email,mobile);
-      res.send(status);
+      // res.send(status);
+      res.sendFile('public/html/success.html',{root:'.'});
     })();
 })
 
